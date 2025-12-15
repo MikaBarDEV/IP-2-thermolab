@@ -39,9 +39,9 @@ project:
         - file: Content/PySim/2_deeltjes_model.ipynb
         - file: Content/PySim/3_recap.ipynb
         - file: Content/PySim/4_brownianmotion.ipynb
-        # - file: Content/PySim/5_druktemp.ipynb
+        - file: Content/PySim/5_druktemp.ipynb
         - file: Content/PySim/6_boltzmann.ipynb
-        # - file: Content/PySim/7_arbeid.ipynb
+        - file: Content/PySim/7_arbeid.ipynb
         # - file: Content/PySim/8_thermostaat.ipynb
         # - file: Content/PySim/9_entropie.ipynb
 
@@ -51,12 +51,15 @@ project:
         
     - title: Soortelijke warmte
       children:
-        - file: Content/Labs/cwater.ipynb
-        - file: Content/Labs/Verdamping.ipynb        
-        - file: Content/Labs/Warmtecapaciteit.ipynb
-        - file: Content/Labs/koelbuis.ipynb
+        - file: Content/Labs/Soortelijke Warmte/cwater.ipynb   
+        - file: Content/Labs/Soortelijke Warmte/Warmtecapaciteit.ipynb
+        - file: Content/Labs/Soortelijke Warmte/koelbuis.ipynb
 
     - title: Druk
       children:
-         - file: Content/Labs/druksensorijken.ipynb
+         - file: Content/Labs/Druk/druksensorijken.ipynb
       #     - file: Content/Labs/pV_diagram.ipynb
+
+    - title: Faseovergangen
+      children:
+        - file: Content/Labs/Faseovergangen/Verdamping.ipynb
