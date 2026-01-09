@@ -63,3 +63,4 @@ project:
     - title: Faseovergangen
       children:
         - file: Content/Labs/Faseovergangen/Verdamping.ipynb
+        - file: Content/Labs/Faseovergangen/waxine.ipynb
